@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -euo pipefail
+
+module load java/openjdk-11
+
+#nextflow run main.nf --input test_100423.yaml --outdir results -profile apptainer,ucl_myriad -resume
+nextflow run main.nf --input test_200524.yaml --outdir results_trypoxyllum -profile apptainer,ucl_myriad -resume --polishing_on false
+
