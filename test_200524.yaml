@@ -1,0 +1,12 @@
+dataset:
+  id: trypoxyllum
+  pacbio:
+    reads:
+      - reads: /lustre/scratch/scratch/ucbtaoi/test_annotation/trypoxyllum_albitarse/hifiasm/delivery/Trypoxylum_albitarse.p_ctg.fa
+  HiC:
+    reads:
+      - reads: /lustre/scratch/scratch/ucbtaoi/test_annotation/trypoxyllum_albitarse/HiRise/bams/DTG_OmniC_852.cram
+hic_motif: GATC,GANTC,CTNAG,TTAA
+busco:
+  lineage: hymenoptera_odb10
+
